@@ -167,3 +167,4 @@ This graph shows the net amount of passengers to Miami over time.
 ```{r}
 ggplot() + geom_line(dfLGA_MIA_cum, mapping = aes(x = by_month, y = net_to_miami)) +labs(title = "Net Number of Passengers to Miami Over Time (months)", x = "Months", y = "Number of Passengers")
 ```
+

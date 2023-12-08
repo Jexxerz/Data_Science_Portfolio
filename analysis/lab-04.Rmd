@@ -95,6 +95,7 @@ laquinta |>
   count(state, sort = TRUE) |>
   inner_join(states, by = c("state" = "abbreviation"))
 ```
+
 The top 3 states for both are Florida, Texas, and California in some order. This is not surprising as these are the three most populous states outside of the northeast and they have lenient business laws.
 
 ### Exercise 10
@@ -113,7 +114,7 @@ laquinta |>
 
 ```
 
-Although not a "state" by casual terms, DC has the most Denny's per square mile, mostly due to its incredibly small size.
+Although not a "state" by casual terms, DC has the most Denny's per square mile, likely due to its incredibly small size.
 
 A similar situation it true for La Quinta: the smallest state (Rhode Island) has the most locations per square mile.
 
